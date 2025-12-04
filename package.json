@@ -1,24 +1,26 @@
 {
-  "name": "simple-nextjs",
+  "name": "simple-tanstack-start",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.5"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@tanstack/start": "^1.0.0",
+    "@tanstack/react-router": "^1.0.0",
+    "vinxi": "^0.5.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "vite-tsconfig-paths": "^5.0.0"
   }
 }
